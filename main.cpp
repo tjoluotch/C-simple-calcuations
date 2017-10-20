@@ -33,8 +33,8 @@ int main() {
     unsigned n = values.size();
     cout << n << " numbers\n";
     if (n > 0) {
-        //cout << "average = " << average(values) << '\n';
-        //cout << "median = " << median(values) << '\n';
+        cout << "average = " << average(values) << '\n';
+        cout << "median = " << median(values) << '\n';
         cout << "scores excluding highest and lowest = " << score(values) << '\n';
     }
     return 0;
